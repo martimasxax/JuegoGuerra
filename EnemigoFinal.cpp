@@ -4,7 +4,6 @@
 EnemigoFinal::EnemigoFinal(std::string pName, int pPosX, int pPosY, int pAttack, int pDefense, int pHp, int pFireAttack, int pFrozenAttack)
     : Personaje(pName, pPosX, pPosY, pAttack, pDefense, pHp), fireAttack(pFireAttack), frozenAttack(pFrozenAttack)
 {
-    // Cuerpo del constructor
 }
 
 bool EnemigoFinal::getFireAttack() {

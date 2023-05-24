@@ -62,7 +62,7 @@ bool Personaje::isAlive() {
     return vidas > 0;
 }
 void Personaje::printAllStats() {
-    std::cout << "La vida de"<< getName()<<"es " << getHp() << std::endl;
+    std::cout << "La vida de "<< getName()<<" es " << getHp() << std::endl;
     std::cout << "El ataque fisico  es " << getAtaque() << std::endl;
     std::cout << "La defensa es " << getDefensa() << std::endl;
 }
